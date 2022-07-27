@@ -11,6 +11,6 @@ userRouter.use('/register', (req: Request, res: Response) => {
     res.send('register');
 });
 
-userRouter.use('login', (req: Request, res: Response) => {
+userRouter.use('/login', (req: Request, res: Response) => {
     res.send('login');
 });

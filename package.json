@@ -2,12 +2,12 @@
   "name": "nodejs-express-app-architecture",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
-  "type": "module",
+  "main": "src/main.ts",
+  "type": "commonjs",
   "scripts": {
     "rm": "rm -R dist",
     "build": "tsc",
-    "dev": "node dist/index.js",
+    "dev": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
